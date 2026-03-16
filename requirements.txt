@@ -67,6 +67,7 @@ numpy==2.4.3
     #   scipy
     #   seaborn
     #   streamlit
+    #   xgboost
 packaging==26.0
     # via
     #   altair
@@ -108,7 +109,9 @@ rpds-py==0.30.0
 scikit-learn==1.8.0
     # via -r requirements.in
 scipy==1.17.1
-    # via scikit-learn
+    # via
+    #   scikit-learn
+    #   xgboost
 seaborn==0.13.2
     # via -r requirements.in
 six==1.17.0
@@ -136,3 +139,5 @@ urllib3==2.6.3
     # via requests
 watchdog==6.0.0
     # via streamlit
+xgboost==3.2.0
+    # via -r requirements.in
