@@ -21,7 +21,7 @@ The application allows users to input medical attributes through an interactive 
 
 ## Live Application
 
-If deployed on Streamlit Cloud or another platform, the application can be accessed through a web interface where users can enter patient attributes and obtain predictions instantly.
+The app is deployed on Streamlit Cloud and the application can be accessed through a web interface where users can enter patient attributes and obtain predictions instantly.
 
 App Link: https://uciheartdiseasedetection.streamlit.app/
 
