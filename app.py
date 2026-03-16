@@ -144,3 +144,6 @@ if res == 0:
     st.success("Congrats!! You're healthy")
 elif res == 1:
     st.error("You might have heart disease. Consult doctor ASAP.")
+
+st.markdown("---")
+st.write("Developed by Priyam Bhattacharya")
